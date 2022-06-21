@@ -22,7 +22,7 @@ int main()
 {
     int tamanhoArray = 10, i;
     // Declaração de array
-    int lista[9] = {99, 77, 33, 100, 11, 88, 44, 22, 55, 66};
+    int lista[10] = {99, 77, 33, 100, 11, 88, 44, 22, 55, 66};
     
     printf("Antes\n");
     for(i = 0; i < tamanhoArray; i++) {
