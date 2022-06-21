@@ -1,0 +1,142 @@
+programa Cap03_Ex3a_Pg056
+
+
+
+programa Cap03_Ex3b_Pg056
+
+Entendimento
+Ler F
+Converter F para C
+Conversão C <- ((F - 32) * 5 / 9
+Mostrar C
+
+var
+	F, C: real
+start
+	read(F)
+	C <- ((F - 32) * 5 / 9
+	write(C)
+end
+
+program Cap03_Ex3f_Pg056
+
+var
+	A, B, Aux: real
+start
+	read(A, B)
+	Aux <- A
+	A <- B
+	B <- Aux
+	escreva(A, B)
+end
+
+program Cap03_Ex3j_Pg056
+
+var
+	A, B, Aux: integer
+start
+	read(A, B)
+	Aux <- (A - B)^2
+	write(Aux)
+end
+
+program Cap03_Ex3l_Pg057
+
+var
+	Dolar, CotaçãoDolar, SaldoReal: real
+start
+	read(CotaçãoDolar, SaldoReal)
+	Dolar <- SaldoReal / CotaçãoDolar
+	write(Real)
+end
+		
+program Cap3_Ex3n_Pg057
+
+Understanding
+* Ler três valores
+* Somar os três números
+* Elevar ao Quadrado a soma
+* Exibir o quadrado da soma
+
+var
+	A, B, C, Soma, Quadrado: inteiro
+início
+	leia(A, B, C)
+	Soma = A + B + C
+	Quadrado = Soma^2
+	escreva(Quadrado)
+fim
+
+programa Cap3_Ex3p_Pg057
+
+Entendimento
+*Ler o salário mensal
+*Ler o percentual de reajuste
+*Apresentar o novo salário
+
+var
+	SM, PR, NS: real
+início
+	leia(SM, PR)
+	NS <- SM * PR
+	escreva(NS)
+fim
+
+programa Cap3_Ex3q_Pg057
+
+
+Entendimento
+* Calcular a área de uma circunferência
+* Ler o raio da circunferência
+* Calcular a Área <- 3.14159265 * raio^2
+* Exibir o valor da área
+
+var
+	Área, Raio: real
+const
+	pi = 3.14159265
+início
+	leia(Raio)
+	Área <- Pi * Raio^2
+	escreva(Área)
+fim
+
+programa Cap3_Ex3t_Pg057
+
+Entendimento
+* Pegar a Distância percorrida
+* Pegar o tempo de percurso
+* Calcular a velocidade do percurso em metros/segundo
+	distânciaMetros = distânciaKm * 1000
+	tempoSegundos = tempoHoras * 60
+	VelocidadeMetrosSegundos <- distanciaMetros / tempoSegundos
+
+var
+	distanciaMetro, distanciaKm, tempoSegundos, tempoHoras, velocidadeMS: real
+início
+	leia(distanciaKm, tempoHoras)
+	distanciaMetro = distanciaKm * 1000
+	tempoSegundos = tempoHoras * 60
+	velocidadeMS = distanciaMetro / tempoSegundos
+	escreva(velocidadeMs)
+fim
+
+
+programa Cap3_Ex3w_Pg057
+
+Entendimento
+* Ler a medida em pés
+* Converter para metros
+	metro = pés * 0,3048
+* Escreva a conversão
+
+
+var
+	pes, metro: real
+const
+	peMetro = 0,3048
+início
+	leia(pes)
+	metro = pes * peMetro
+	escreva(metro)
+fim
